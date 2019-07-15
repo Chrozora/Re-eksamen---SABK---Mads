@@ -1,0 +1,142 @@
+body {
+    background-image: url(image/baggrund.jpg); 
+    background-size: 100vw auto;
+    background-repeat: unset;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    background-image: url(image/nav.jpg);
+    border-style: solid;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: solid;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+    
+main {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    margin: 5px;
+}
+
+form {
+    background-image: url(image/section.jpg);
+}
+  
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+  
+button {
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 60%;
+}
+  
+button:hover {
+    opacity: 0.8;
+}
+  
+.cancelbtn {
+    width: 200px;
+    padding: 20px 20px;
+    background-color: red;
+}
+  
+.container {
+    padding: 16px;
+}
+  
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+  
+@media screen and (max-width: 300px) {
+    span.psw {
+    display: block;
+    float: none;
+}
+
+.cancelbtn {
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    }
+} 
+  
+h1 {
+    letter-spacing: 2px;
+    margin: 20px;
+    padding: 25px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    margin: 20px;
+    padding: 25px;
+}
+
+p {
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: bold;
+    font-family: fantasy;
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px
+}
+  
+a:hover, a:active {
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+    color: white;
+    font-size: 30px;
+    background-image: url(image/footer.jpg);
+    align-items: center;
+    text-align: center;
+}

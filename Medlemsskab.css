@@ -1,0 +1,156 @@
+body {
+    background-image: url(image/baggrund.jpg); 
+    background-size: 100vw auto;
+    background-repeat: unset;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    background-image: url(image/nav.jpg);
+    border-style: solid;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: solid;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+    
+main {
+    display: flex;
+    width: 50%;
+    justify-items: center;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+.row {
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+  
+.col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+  
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    display: inline-block;
+}
+  
+.col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+  
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+  
+.container {
+    background-image: url(image/section.jpg);
+    padding: 5px 20px 15px 20px;
+    border-radius: 3px;
+    width: 800px;
+}
+  
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 95%;
+    display: inline-block;
+}
+  
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+  
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+  
+.btn {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 800px;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.btn:hover {
+    background-color: blue;
+}
+  
+h1 {
+    letter-spacing: 2px;
+    margin: 20px;
+    padding: 25px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p {
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: bold;
+    font-family: fantasy;
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px
+}
+  
+a:hover, a:active {
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+    color: white;
+    font-size: 30px;
+    background-image: url(image/footer.jpg);
+    align-items: center;
+    text-align: center;
+}
