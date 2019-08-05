@@ -35,17 +35,13 @@ button {
     font-weight: bold;
     width: 60%;
 }
-  
-button:hover {
-    opacity: 0.5;
-}
-  
+ 
 .cancelbtn {
     width: 200px;
     padding: 20px 20px;
-    background-color: darkblue;
+    margin: 20px 20px;
 }
-  
+
 .container {
     padding: 16px;
 }
